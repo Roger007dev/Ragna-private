@@ -61,6 +61,22 @@ header .letra h1.animacao{
 	obs: isto fez com que o divisor tivesse um tamanho compativel ao menu**/
 }
 
+/**************************** COR DE FUNDO HOME E BORDAS*********************/
+.cor{
+	padding-top: 2%;
+	padding-bottom: 5%;
+	background: rgba(112,124,144, 0.1);
+}
+
+
+
+/********************* IMAGENS DO CARROSSEL***********************/
+.organize-img{
+
+	height: 200px;
+	width: 220px;
+}
+
 
 /***************** midia queris/ tamanhos pra diferentes telas*****************/
 /* Extra small devices (portrait phones, less than 576px)*/
