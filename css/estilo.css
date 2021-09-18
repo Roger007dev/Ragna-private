@@ -27,6 +27,11 @@ header{
 	font-size: 150px;
 	font-family: "font capa";
 }
+h2.letra{
+ 	color: black;
+	font-size: 80px;
+	font-family: "font capa";
+}
 
 /***************** ANIMAÇAO DA FONTE DA CAPA***************/
 @keyframes flex-capa{
@@ -96,12 +101,27 @@ header .letra h1.animacao{
 	
 }
 
+/************* IMAGEM PRA CAPA DE DOWNLOAD ***************/
+
+
+.organize-downolad{
+	border: 3px solid  rgba(0, 0, 0, 0.3);
+	height: 400px;
+	width: 520px;
+	text-shadow: 0px 0px black;
+}
 
 /***************** midia queris/ tamanhos pra diferentes telas*****************/
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 	.letra h1{
 		font-size: 4.0em;
+	}
+
+	h2.letra{
+ 	color: black;
+	font-size: 2.5em;
+	font-family: "font capa";
 	}
 
 	.ordem{
@@ -114,6 +134,13 @@ header .letra h1.animacao{
 	width: 270px;
 	text-shadow: 0px 0px black;
 	}
+
+	.organize-downolad{
+	border: 3px solid  rgba(0, 0, 0, 0.3);
+	height: 180px;
+	width: 270px;
+	text-shadow: 0px 0px black;
+}
 	
 }
 
@@ -122,6 +149,13 @@ header .letra h1.animacao{
 	.letra h1{
 		font-size: 6.5em;
 	}
+
+	h2.letra{
+ 	color: black;
+	font-size: 3em;
+	font-family: "font capa";
+	}
+
 	.ordem{
 		order: 3;
 	}
@@ -133,6 +167,13 @@ header .letra h1.animacao{
 	text-shadow: 0px 0px black;
 	}
 
+	.organize-downolad{
+	border: 3px solid  rgba(0, 0, 0, 0.3);
+	height: 230px;
+	width: 360px;
+	text-shadow: 0px 0px black;
+}
+
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -140,6 +181,11 @@ header .letra h1.animacao{
 	
 	.letra h1{
 		font-size: 8.5em;
+	}
+	h2.letra{
+ 	color: black;
+	font-size: 3em;
+	font-family: "font capa";
 	}
  }
 
