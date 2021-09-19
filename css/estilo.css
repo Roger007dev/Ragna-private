@@ -53,7 +53,7 @@ h2.letra{
 header .letra h1.animacao{
 	animation-name: flex-capa;
 	animation-duration: 5s;
-	animation-iteration-count: 100;
+	animation-iteration-count: 999;
 	animation-delay: 2s;
 }
 
